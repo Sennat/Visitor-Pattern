@@ -10,7 +10,7 @@ public class VisitorPatternDemo {
 	public static void main(String[] args) {
 		
 		System.out.println("===========================================");
-		System.out.println("Visitor Design Pattern Implementation: ");
+		System.out.println("A Visitor Design Pattern Implementation: ");
 		System.out.print("===========================================");
 			
 		Departments departments = new Plants();
