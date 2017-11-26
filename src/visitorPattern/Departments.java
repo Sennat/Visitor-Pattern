@@ -1,14 +1,17 @@
-/* ************************************************************************************
- * Copyright (C) Nov 25, 2017, Natnael Alemayehu, All rights Reserved. Unauthorized 
- * copying of this file and/or distributed without, the express permission of 
- * Natnael Alemayehu is strictly prohibited. Written by Natnael Alemayehu 1:41:11 PM.
- * ************************************************************************************
- */
 
 package visitorPattern;
 
+/**
+ * A Departments interface implemented to demonstrate A Visitor Design Pattern to accept 
+ * all visitors
+ * @author Natnael Alemayehu
+ *
+ */
 public interface Departments {
 	
+	/**
+	* A method to accept all visitor
+	*/
 	public void accept(CEO areaManager);
 
 }
